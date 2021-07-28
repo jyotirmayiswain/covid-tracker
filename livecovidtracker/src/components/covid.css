@@ -1,0 +1,112 @@
+.card_inner-1 { grid-area: card_inner-1; justify-content: center; }
+.card_inner-2 { grid-area:card_inner-2; }
+.card_inner-3 { grid-area:card_inner-3; }
+.card_inner-4 { grid-area:card_inner-4; }
+.card_inner-5 { grid-area:card_inner-5; }
+.card_inner-6 { grid-area:card_inner-6; }
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'card_inner-1 card_inner-2 card_inner-3'
+    'card_inner-4 card_inner-5 card_inner-6';
+    grid-gap: 50px;
+    background-color: black;
+    padding: 10px;
+    
+    justify-content: space-around;
+  }
+  .grid-container > div {
+    text-align: center;
+    padding: 100px 0;
+    font-size: 30px;
+    color: white;
+
+    
+  }
+.card_inner-1{
+    background-color: rgb(120, 209, 230);
+    margin-top: 30px;
+    height: 0px;
+    width: 300px;
+}
+.card_inner-2
+{
+    background-color: rgb(189, 139, 236);
+    margin-top: 30px;
+    height: 0px;
+    width: 300px;
+}
+.card_inner-3{
+    background-color: rgb(241, 206, 91);
+    margin-top: 30px;
+    height: 0px;
+    width: 300px;
+}
+.card_inner-4{
+    background-color: rgb(240, 104, 80);
+    margin-top: 30px;
+    height: 0px;
+    width: 300px;
+}
+.card_inner-5{
+    background-color: rgb(128, 240, 195);
+    margin-top: 30px;
+    height: 0px;
+    width: 300px;
+}
+.card_inner-6{
+    background-color: rgb(240, 155, 193);
+    margin-top: 30px;
+    height: 0px;
+    width: 300px;
+    margin-bottom: 50px;
+    
+}
+section{
+    background-color: black;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: bisque;
+}
+h2{
+    text-align: center;
+    color: bisque;
+}
+span{
+    width: 10rem;
+}
+.card_name{
+    padding-top: 0px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    font-style: bold;
+}
+span{
+    font-family:Times New Roman;
+    line-height:70% !important; 
+    font-size:12.0pt;
+    
+}
+.card_total_card_small{
+    text-shadow: 5px 5px 10px black;
+    text-emphasis-style: bold;
+    
+}
+
+@media(max-width: 500px){
+
+    .grid-container {
+        grid-template-areas:
+        'card_inner-1'
+        'card_inner-2'
+        'card_inner-3'
+        'card_inner-4'
+        'card_inner-5';
+     }
+     
+}
