@@ -9,6 +9,8 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+document.getElementByClass('nidhish'){
+  window.location(location.href=" ")
 );
 
 // If you want to start measuring performance in your app, pass a function
